@@ -1,0 +1,45 @@
+*{
+    background-color: yellow;
+}
+h1{
+    color: fuchsia;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: brown;
+    display: flex;
+    justify-content: center;
+}
+img{
+    display: flex;
+    height: 900px;
+    width: 1200px;
+    border: 10px solid red;
+    margin: auto;
+    border-radius: 6px;
+    
+}
+li{
+    color: rgb(14, 54, 176);
+    margin: 10px;
+    justify-content: left;
+    align-items: center;
+}
+li::marker{
+    color: black;
+    background-color: white;
+ }
+ul{
+    margin: 50px 100px;
+}
+a:hover{
+    color: rgb(235, 8, 121);
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
